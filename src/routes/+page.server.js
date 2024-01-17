@@ -1,6 +1,5 @@
 export async function load() {
-
-    console.log('server side log');
+    console.log(undefinedVariable);
     return {
         'foo': 'bar',
     }
