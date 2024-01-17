@@ -12,4 +12,4 @@
 
 <Icon icon="arrow-right"></Icon>
 
-{data}
+{data.foo}
