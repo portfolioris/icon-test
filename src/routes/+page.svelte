@@ -1,5 +1,7 @@
 <script>
     import Icon from "$lib/Icon/Icon.svelte";
+    export let data;
+
 </script>
 
 <h1>Icon test</h1>
@@ -9,3 +11,5 @@
 <p>There should also be an arrow-right here:</p>
 
 <Icon icon="arrow-right"></Icon>
+
+{data}
